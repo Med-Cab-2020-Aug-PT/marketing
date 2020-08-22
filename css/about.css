@@ -45,14 +45,7 @@ body {
     text-decoration: underline;
 }
 
-/* .header{
-    background-image: url(https://oi1253.photobucket.com/albums/hh581/jimmymfho/landing-page-img-background-opaque_zpsmgbujzzq.png~original);
-    background-size: cover;
-    padding: 5rem;
-    margin: 0 auto;
-    height: 10vw;
-    width: 70vw;
-} */
+
 
 header {
     text-align: center;
@@ -71,20 +64,12 @@ header p {
    
 }
 
-button {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    border-radius: .5rem;
-    background-color: #1B4332;
-    color: #B7E4C7;
-    padding: .3rem .5rem;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-section {
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 1rem
 }
 
@@ -92,6 +77,18 @@ section p{
     margin: 1rem;
 }
 
+section a {
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
 footer{
     background-color: #1B4332;
     height: 8vh;
