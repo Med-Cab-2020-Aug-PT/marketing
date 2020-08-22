@@ -26,22 +26,28 @@ time, mark, audio, video {
 body {
     background-color: #B7E4C7;
 }
+
+
 .nav-div {
     display: flex;
     justify-content: flex-end;
     margin: 1rem;
+    
 }
 
 .nav-div a {
     padding: 0 0.5rem;
     text-decoration: none;
-    border: 1px solid black;
+    color: #1B4332
+}
+
+.nav-div a:hover {
+    text-decoration: underline;
 }
 
 .header{
-    background: url(https://www.legalexaminer.news/wp-content/uploads/2020/08/marijuana-jar.jpg);
+    background-image: url(https://oi1253.photobucket.com/albums/hh581/jimmymfho/landing-page-img-background-opaque_zpsmgbujzzq.png~original);
     background-size: cover;
-    opacity: 0.7;
     padding: 5rem;
     margin: 0 auto;
     height: 10vw;
@@ -50,7 +56,7 @@ body {
 
 header {
     text-align: center;
-    
+
 }
 
 h1 {
@@ -60,6 +66,9 @@ h1 {
 
 header p {
     font-style: italic;
+    font-weight: 500;
+    font-size: 1.15rem;
+   
 }
 
 button {
@@ -70,3 +79,32 @@ button {
     color: #B7E4C7;
     padding: .3rem .5rem;
 }
+
+button:hover {
+    opacity: 0.8;
+}
+
+section {
+    margin: 1rem
+}
+
+section p{
+    margin: 1rem;
+}
+
+footer{
+    background-color: #1B4332;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+ footer div {
+     margin: .5rem
+ }
+
+footer p {
+    color: #B7E4C7
+}
+
