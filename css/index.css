@@ -5,7 +5,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, form, label,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -84,25 +84,54 @@ button:hover {
     opacity: 0.8;
 }
 
-section {
-    margin: 1rem
-}
-
-section p{
+.testimonial-section {
     margin: 1rem;
+    text-align: center;
 }
 
-footer{
+.user-testimonial {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+section div div {
+    width: 33%;
+}
+
+section div div p {
+   width: 66%;
+   margin: 0 auto;
+}
+
+section h2 {
+    margin-bottom: 0.7rem;
+}
+
+section img {
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+}
+
+fieldset {
+    border: 1px solid;
+}
+
+
+.footer-div{
     background-color: #1B4332;
     height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
- footer div {
-     margin: .5rem
- }
+
+.footer-item {
+    margin: .5rem;
+}
 
 footer p {
     color: #B7E4C7
