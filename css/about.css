@@ -27,6 +27,10 @@ body {
     background-color: #B7E4C7;
 }
 
+h2 {
+    font-size: 1.25rem;
+    font-style: italic;
+}
 
 .nav-div {
     display: flex;
@@ -121,3 +125,8 @@ footer p {
    header p {
        font-size: 1.15rem;
    }
+
+   h2 {
+       font-size: 1.5rem;
+   }
+}

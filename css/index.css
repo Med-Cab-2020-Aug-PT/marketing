@@ -27,6 +27,10 @@ body {
     background-color: #B7E4C7;
 }
 
+span {
+    font-style: italic;
+}
+
 
 .nav-div {
     display: flex;
@@ -68,7 +72,7 @@ header p {
     font-style: italic;
     font-weight: 500;
     font-size: 1.15rem;
-   
+    margin: 0 auto;
 }
 
 button {
@@ -180,15 +184,18 @@ footer p {
         align-items: center;
     }
 
+    .user-testimonial img {
+        margin: 0 auto;
+    }
     .user-testimonial p {
         width: 12rem;
-        margin-left: -.5rem;
-        margin-bottom: .5rem;
+        margin: 0 auto;
     }
 
 }
 
 @media (max-width: 500px) {
+
 
     .content-div {
         flex-flow: column;
@@ -204,8 +211,12 @@ footer p {
     }
 
     .user-testimonial {
-        align-items: center;
+    
+        margin: 0 auto;
     }
    
-    
+    button {
+        padding: .6rem .8rem;
+        font-size: 1rem;
+    }
 }
