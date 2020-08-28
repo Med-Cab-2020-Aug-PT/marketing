@@ -32,6 +32,10 @@ h2 {
     font-style: italic;
 }
 
+h3 {
+    width: 3rem
+}
+
 .nav-div {
     display: flex;
     justify-content: flex-end;
